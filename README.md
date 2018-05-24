@@ -7,6 +7,8 @@ It contains a sample app using a simple 2 text list view implemented in fews lin
 
 
 
+
+
 	allprojects {
 		repositories {
 			...
@@ -19,6 +21,26 @@ Step 2. Add the dependency
 	        implementation 'com.github.Shwaubh:AsesListView:v1.0'
 
 	}
+
+
+EaseView a;
+a = (EaseView) findViewById(R.id.aa);
+ArrayList upper = new ArrayList<>();
+ArrayList lower = new ArrayList<>();
+
+    for(int i = 0; i < 100 ; i++ )
+    {
+        upper.add("Upper " +i);
+        lower.add("lower " +i);
+    }
+    a.init(this , upper , lower);
+<second.test.aseslib.EaseView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/aa"
+android:background="@android:color/holo_green_dark"
+/>
+
 
 And you are done with your listview..
 
