@@ -5,7 +5,7 @@ It contains a sample app using a simple 2 text list view implemented in fews lin
 
 [![](https://jitpack.io/v/Shwaubh/AsesListView.svg)](https://jitpack.io/#Shwaubh/AsesListView)
 
-Add it in your root build.gradle at the end of repositories:
+
 
 	allprojects {
 		repositories {
@@ -17,4 +17,10 @@ Step 2. Add the dependency
 
 	dependencies {
 	        implementation 'com.github.Shwaubh:AsesListView:v1.0'
+
 	}
+
+And you are done with your listview..
+
+![a](https://user-images.githubusercontent.com/23352068/40516688-612cf2d4-5fcf-11e8-8d04-8100ca836ec8.JPG)
+![b](https://user-images.githubusercontent.com/23352068/40516689-619fe820-5fcf-11e8-9483-813b09dedbbf.JPG)
