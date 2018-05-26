@@ -22,7 +22,7 @@
         android:layout_weight="1"
         android:id="@+id/text1"
         android:layout_margin="8dp"
-        android:background="@drawable/text_back_one"
+        android:background="@android:color/white"
         android:text="THIS IS A DEMO TEXT"
         android:gravity="center"
         android:textColor="@android:color/black"
